@@ -57,7 +57,11 @@
         </tr>
         <tr>
             <td class="white">Total Miles</td>
-            <td class="grey"><input type="text" style="background-color:lightgray;" id="totalmile1" oninput="feulcost('totalmile1','avgmilepergallon','feulreduction1','curgasprice','feulcost1')"readonly></td>
+            <!-- //////////////////////////////// -->
+            <!-- aur yahan pr oninput ap kyon call karwa rahy hai yahan pr to input aa kr save honi hai yahan pr to hum input kr hi nahi rhy ok ic jahan pr output show honi hai wahan se oninput function remove kr do ok  -->
+            <!-- mainy ik oninput rmeove kr diya hai baki ap sary remove kary hamain jahan output store ho rahi wahan function call karny ki zarorat nahi ok fix it all ok  -->
+            <!-- //////////////////////////// -->
+            <td class="grey"><input type="text" style="background-color:lightgray;" id="totalmile1"></td>
             <td class="grey"><input type="text" style="background-color:lightgray;" id="totalmile2" oninput="feulcost('totalmile2','avgmilepergallon','feulreduction2','curgasprice','feulcost2')"readonly></td>
         <td></td>
         <td class="white" >Total Miles</td>
@@ -94,8 +98,8 @@
 </tr>
 <tr>
 <td class="white"> Fuel Cost </td>
-<td class="grey" ><input type="text" style="background-color:lightgray;" id="feulcost1"readonly></td>
-<td class="grey" ><input type="text" style="background-color:lightgray;" id="feulcost2"readonly></td>
+<td class="grey" ><input type="text" style="background-color:lightgray;" id="feulcost1" readonly></td>
+<td class="grey" ><input type="text" style="background-color:lightgray;" id="feulcost2" readonly></td>
 <td></td>
 <td class="white"> Fuel Cost </td>
 <td class="grey" ><input type="text" style="background-color:lightgray;" id="feulcost3"readonly></td>
