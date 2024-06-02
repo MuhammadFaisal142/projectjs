@@ -37,6 +37,8 @@ function feulCost(b11, g2, g3, b8, outputFulcost) {
     console.log(result);
     document.getElementById(outputFulcost).value = result;
 }
+
+
 // function feulcost(inp1, inp2, inp3, inp4, output) {
 //     var value1 = parseFloat(document.getElementById(inp1).value);
 //     var value2 = parseFloat(document.getElementById(inp2).value);
